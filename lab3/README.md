@@ -1,11 +1,26 @@
-<<<<<<< HEAD
-# labw6
+# Practice-1
 
-A new Flutter project.
+This repository contains Flutter practice projects.
+
+## Projects
+
+### first_app
+A basic Flutter application.
+
+### lab3
+Flutter Lab 3: Layout Basics - A Flutter application demonstrating the use of:
+- Container
+- Text
+- Column
+- Row
+- Padding
+- Margin
+- AppBar
+- BoxDecoration
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for Flutter applications.
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -15,6 +30,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-=======
-# Practice-1
->>>>>>> 1fe90d2bbeba7ce345a7c2952c44f3bc0d791496
