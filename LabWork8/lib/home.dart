@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:labwork8/constants/colors.dart';
 import 'package:labwork8/constants/text_styles_value.dart';
 import 'package:labwork8/generated/locale_keys.g.dart';
+import 'package:labwork8/pages/profile_page.dart';
 import 'package:labwork8/registration.dart';
 
 class Home extends StatefulWidget {
@@ -62,6 +63,20 @@ class _HomeState extends State<Home> {
                   child: const Text("KZ"),
                 ),
               ],
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton.icon(
+              onPressed: () async {
+                await context.setLocale(const Locale('en'));
+                if (!mounted) return;
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const ProfilePage(),
+                  ),
+                );
+              },
+              icon: const Icon(Icons.person),
+              label: const Text('Open Profile Page'),
             ),
           ],
         ),
